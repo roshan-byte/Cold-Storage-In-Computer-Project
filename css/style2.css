@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.heading
+{
+    width:100vw;
+    height:100px;
+    margin-top: 10px;
+/* border:indigo 1px solid; */
+}
+
+/* heading of the content (facebook)*/
+.heading > h1{
+
+    padding-top:20px;
+    width:fit-content;
+    font-family: 'Roboto Condensed', sans-serif;
+margin:auto;
+font-weight: 600;
+background-color:indigo;
+color:white;
+border-radius:20px;
+height:inherit;
+
+font-size:3rem;
+}
+
+.content{
+    display:flex;
+    /* justify-content:space-evenly; */
+}
+.content >img{
+
+    margin:30px 10px 0 50px;
+    width:600px;
+    height:400px;
+    border-radius: 20px;
+
+}
+
+.sub_content >p{
+
+    text-align: justify;
+
+    line-height: 34px;
+    width:fit-content;
+
+    padding:20px 0 20px 30px;
+    margin:auto;
+    font-size: 1.7rem;
+}
